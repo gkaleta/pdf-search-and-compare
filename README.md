@@ -41,6 +41,10 @@ python app.py
 
 - Upload PDFs and perform searches via the web interface.
 
+## Architecture 
+![image](https://github.com/user-attachments/assets/c3b68f55-d62d-42fd-b0ed-5189981ba9e7)
+
+
 ## **License**
 
 MIT License.
