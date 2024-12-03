@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    {% for result in results %}
+        <div>
+            <h2>{{ result['file_name'] }}</h2>
+            <p>{{ result['content'][:500] }}...</p>
+        </div>
+    {% endfor %}
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>
